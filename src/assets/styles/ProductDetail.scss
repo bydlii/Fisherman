@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .product-detail {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-header {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .product-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-info {
+    flex: 2;
+  }
+  
+  .product-name {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-info p {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .product-description {
+    margin: 20px 0;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-description h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .review-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #fad87d;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background: #f1ca5d;
+  }
+
+  .offer-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #1b252b;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .offer-button:hover {
+    background: #212a30;
+  }
+  
+  .product-reviews {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .product-reviews h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-reviews p {
+    font-size: 16px;
+    color: #555;
+  }

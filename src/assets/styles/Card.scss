@@ -1,0 +1,105 @@
+.card-container{
+    position: relative;
+    width: 420px;
+    .card{
+    position: relative;
+    z-index: 1;
+    width: 420px;
+    height: 270px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    background: #1b252b;
+    box-shadow: 0 0 5px #fad87d;
+    border: 1px solid #fad87d;
+    color: whitesmoke;
+    img{
+        height: 270px;
+        width: 40%;
+        object-fit: cover;
+    }
+    &-body{
+        width: 60%;
+        height: 250px;
+        padding-right: 10px;
+        h4{
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 800;
+        }
+        p{
+            margin: 8px 0;
+        }
+    }
+    }
+    .del,.edit{
+        position: absolute;
+        bottom: -35px;
+        width: 210px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        transition: .7s;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        opacity: 0.8;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            font-size: 40px;
+
+        }
+    }
+    .edit{
+        right: 0;
+        border-radius: 0 0 10px 0;
+        background: #fad87d;
+        color: #1b252b;
+
+    }
+    .del{
+        border-radius: 0 0 0 10px;
+        background-color: red;
+        color: #1b252b;
+       
+    }
+    .incele{
+        border: none;
+        cursor: pointer;
+        transition: .7s;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        opacity: 0.8;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 10px 10px;
+        background: #fad87d;
+        color: #1b252b;
+        width: 420px;
+        height: 40px;
+        &:hover{
+            font-size: 40px;
+
+        }
+    }
+    .link{
+        text-decoration: none;
+    }
+   
+}
+
+.card-list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:  100px 20px;
+}
+

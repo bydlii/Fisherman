@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Oleo+Script:wght@700&family=Spline+Sans:wght@300..700&display=swap');
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b252b;
+    box-shadow: 0 0 10px #fad87d;
+    padding: 10px 20px;
+    // font-family: Arial, sans-serif;
+    font-family: "Spline Sans", sans-serif;
+    color: whitesmoke;
+    height: 100px;
+    img {
+        width: 50px;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+
+       
+    }
+
+    ul {
+
+
+        list-style: none;
+        display: flex;
+        gap: 15px;
+
+        align-items: center;
+        li {
+
+            display: inline;
+            
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+                font-size: 1rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+           
+        }
+        
+    }
+    .user{
+        display: flex;
+        gap: 20px;
+        &-card{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 2px dashed #fad87d;
+            }
+            
+        }
+        .giris{
+            position: relative;
+            top: 20%;
+            background-color: #fad87d;
+            color: #1b252b;
+            border: 10px solid #fad87d;
+            border-radius: 5px;
+            padding-right: 0px;
+            height: 80px;
+        }
+    }
+}

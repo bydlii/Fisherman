@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1b252b;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGYxdWJuOHI1YTExcndxZG5mY2FqZWwwb3M2N2RpanZ1Ym5iNTJmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Quyiqd41UdRSiaRe55/giphy.webp");
+}
